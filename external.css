@@ -363,6 +363,9 @@
     margin-top: 0 !important;
     margin-left: 0 !important;
 }
+    .navB{
+    background-color: #333;
+}
 .ul{
     margin-left: 6% !important;
 }
