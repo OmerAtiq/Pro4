@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="external.css">
+    <script src="https://kit.fontawesome.com/c65cbc61e3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="./jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>BizPage</title>
+    <link rel="icon" href="Images/logo.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light  pl-5 pr-5 navB">
+            <!-- <hr class="divider logo"> -->
+            <a class="navbar-brand text-white font-weight-bold logo" href="#">
+                <h2>BizPage</h2>
+            </a>
+            <button class="navbar-toggler i " type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon  "></span>
+            </button>
+            <div class="collapse navbar-collapse nav_div" id="navbarNav">
+
+                <ul class="navbar-nav d-flex justify-content-between ul">
+                    <li class="nav-item active ">
+                        <a class="nav-link lione font-weight-bold" href="#">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown  justify-content-md-between">
+                        <a href="" class="nav-link lione dropdown-toggle font-weight-bold"
+                            data-toggle="dropdown">About</a>
+
+                        <div class="dropdown-menu">
+                            <a href="" class="dropdown-item">Link1</a>
+                            <a href="" class="dropdown-item">Link2</a>
+                            <a href="" class="dropdown-item">Link3</a>
+                            <a href="" class="dropdown-item">Link4</a>
+
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link lione font-weight-bold" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lione font-weight-bold " href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lione font-weight-bold " href="#">Team</a>
+                    </li>
+                    <li class="nav-item dropdown justify-content-md-between">
+                        <a href="" class="nav-link lione font-weight-bold dropdown-toggle" data-toggle="dropdown">Drop
+                            Down</a>
+
+                        <div class="dropdown-menu ">
+                            <a href="" class="nav-link font-weight-bold  dropdown-toggle" data-toggle="dropdown">Drop
+                                Down1</a>
+                            <div class="dropdown-menu dropdown_one ">
+                                <a href="" class="dropdown-item">Link1</a>
+                                <a href="" class="dropdown-item">Link2</a>
+                                <a href="" class="dropdown-item">Link3</a>
+                                <a href="" class="dropdown-item">Link4</a>
+
+                            </div>
+                            <a href="" class="dropdown-item">Link2</a>
+                            <a href="" class="dropdown-item">Link3</a>
+                            <a href="" class="dropdown-item">Link4</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold lione " href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item sone active">
+                <div class="carousel-caption  tt  d-flex flex-column justify-content-between align-items-center ">
+                    <h1 class="text-white a  font-weight-bold text-center w-100 ">We are professional
+                    </h1>
+
+                    <p class="text-white w-75 " style="text-align: center;">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+
+                    <a class="btn a1" href="#about">Find Out More</a>
+                </div>
+            </div>
+            <div class="carousel-item sone">
+                <div class="carousel-caption  tt d-flex flex-column justify-content-between align-items-center ">
+                    <h1 class="text-white a font-weight-bold text-center w-100   mt-5">At vero eos et accusamus
+                    </h1>
+
+                    <p class="text-white w-75" style="text-align: center;">Nam libero tempore, cum soluta nobis est
+                        eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
+                        voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis
+                        debitis aut.</p>
+
+                    <a class="btn a1" href="#about">Find Out More</a>
+                </div>
+            </div>
+            <div class="carousel-item sone">
+                <div class="carousel-caption  tt d-flex flex-column justify-content-between align-items-center ">
+                    <h1 class="text-white a font-weight-bold text-center w-100   mt-5">Temporibus autem quibusdam
+                    </h1>
+
+                    <p class="text-white w-75" style="text-align: center;">Beatae vitae dicta sunt explicabo. Nemo enim
+                        ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                        dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem
+                        accusantium.</p>
+
+                    <a class="btn  a1" href="#about">Find Out More</a>
+                </div>
+            </div>
+            <div class="carousel-item sone">
+                <div class="carousel-caption  tt d-flex flex-column justify-content-between align-items-center ">
+                    <h1 class="text-white a font-weight-bold text-center w-100   mt-5">Nam libero tempore
+                    </h1>
+
+                    <p class="text-white w-75" style="text-align: center;">Neque porro quisquam est, qui dolorem ipsum
+                        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
+                        nostrum.</p>
+
+                    <a class="btn  a1" href="#about">Find Out More</a>
+                </div>
+            </div>
+            <div class="carousel-item sone">
+                <div class="carousel-caption  tt d-flex flex-column justify-content-between align-items-center ">
+                    <h1 class="text-white a font-weight-bold text-center w-100   mt-5">Magnam aliquam quaerat
+                    </h1>
+
+                    <p class="text-white w-75" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+
+                    <a class="btn  a1" href="#about">Find Out More</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="container-fluid ">
+        <div class="row rr ">
+            <div class="col-lg-3 cc  my-4">
+                <i class="far fa-envelope-open ico"></i>
+                <p class="text-white pp mt-4">Lorem ipsum dolor</p>
+                <p class="text-white pp mt-2">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                    excepturi sint occaecati cupiditate non provident</p>
+            </div>
+            <div class="col-lg-3 clr  my-4">
+                <i class="far fa-caret-square-right ico"></i>
+                <p class="text-white pp  mt-4 ">Dolor Sitema</p>
+                <p class="text-white pp mt-2  ">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                    excepturi sint occaecati cupiditate non provident</p>
+            </div>
+            <div class="col-lg-3  my-4">
+                <i class="fas fa-binoculars ico"></i>
+                <p class="text-white pp  mt-4">Sed ut perspiciatis</p>
+                <p class="text-white pp mt-2">Voluptatum deleniti atque corrupti quos dolores et quas molestias
+                    excepturi sint occaecati cupiditate non provident</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid ">
+        <div class="row cl ">
+            <div class="col-lg-12 about">
+                <h1 class=" about_heading  font-weight-bold text-center w-100">ABOUT US
+                </h1>
+                <hr class="divider_one mt-3">
+                <p class="about_para mt-4" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="row my-5 d-flex justify-content-center w-100">
+                <div class="col-lg-3 mt-3">
+                    <div class="card w-100 ">
+                        <div class="card-img-top im1">
+                            <!-- <i class="far fa-gem gem"></i> -->
+
+                        </div>
+                        <div class="circle only_icon">
+                            <i class="fas fa-signal " style="color: white;"></i>
+                        </div>
+
+                        <div class="card-body ">
+                            <h4 class="card-title d-flex justify-content-center ">Our Mission</h4>
+                            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco laboris nisi ut aliquip .
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3">
+                    <div class="card w-100 ">
+                        <div class="card-img-top im1 im2">
+                            <!-- <img src="./Images/about-mission.jpg" alt=""> -->
+                            <!-- <i class="far fa-gem gem"></i> -->
+
+                        </div>
+                        <div class="circle only_icon">
+                            <i class="far fa-sun" style="color: white;"></i>
+                        </div>
+
+                        <div class="card-body ">
+                            <h4 class="card-title d-flex justify-content-center ">Our Plan</h4>
+                            <p class="card-text ">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et
+                                quasi architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-3 ww">
+                    <div class="card w-100 ">
+                        <div class="card-img-top im1 im3">
+                            <!-- <img src="./Images/about-mission.jpg" alt=""> -->
+                            <!-- <i class="far fa-gem gem"></i> -->
+
+                        </div>
+                        <div class="circle only_icon">
+                            <i class="fas fa-adjust" style="color: white;"></i>
+                        </div>
+                        <div class="card-body ">
+                            <h4 class="card-title d-flex justify-content-center ">Our Vision</h4>
+                            <p class="card-text ">Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed
+                                quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est,
+                                qui dolorem ipsum quia dolor sit amet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bgg">
+        <div class="row">
+            <div class="col-lg-12 about">
+                <h1 class=" about_heading font-weight-bold text-center w-100" style="color: white;">FACTS
+                </h1>
+                <hr class="divider_one mt-4">
+                <p class="about_para my-4" style="text-align: center; color: white;">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+            </div>
+        </div>
+        <div class="row  ">
+            <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center flex-column align-items-center "><h1 class="countUp" style="color: rgb(24, 210, 110);">200</h1>
+            <p style="color: white;">Clients</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center flex-column align-items-center"><h1 class="countUp " style="color: rgb(24, 210, 110);">1343</h1>
+                <p style="color: white;">Projects</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center flex-column align-items-center "><h1 class="countUp" style="color: rgb(24, 210, 110);">889</h1>
+                <p style="color: white;">Hard Workers</p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5 d-flex justify-content-center flex-column align-items-center "><h1 class="countUp" style="color: rgb(24, 210, 110);">1009</h1>
+                <p style="color: white;">Projects Done</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="container-fluid oo">
+        <div class="row">
+            <div class="col-lg-12 about">
+                <h1 class=" about_heading  font-weight-bold text-center w-100">SERVICES
+                </h1>
+                <hr class="divider_one mt-3">
+                <p class="about_para mt-4" style="text-align: center;">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="row d-flex  justify-content-around my-5 ">    
+            <div class="col-lg-3 col-md-5  mt-3 service_column">
+                <i class="far fa-gem gem service_icon"></i>
+                <h4 class="service_heading">Lorem Ipsum</h4>
+                <p class="service_para" style="color: gray;"> Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+            <div class="col-lg-3 mr-3 col-md-5 mt-3 service_column">
+                <i class="far fa-gem gem service_icon"></i>
+                <h4 class="service_heading">Lorem Ipsum</h4>
+                <p class="service_para" style="color: gray;"> Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+            <div class="col-lg-3  mr-3 col-md-5 mt-3 service_column">
+                <i class="far fa-gem gem service_icon"></i>
+                <h4 class="service_heading">Lorem Ipsum</h4>
+                <p class="service_para" style="color: gray;"> Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+
+            <div class="col-lg-3  mr-3 col-md-5  mt-3 service_column">
+                <i class="far fa-gem gem service_icon"></i>
+                <h4 class="service_heading">Lorem Ipsum</h4>
+                <p class="service_para" style="color: gray;"> Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+            <div class="col-lg-3 col-md-5 mt-3  service_column">
+                <i class="far fa-gem gem service_icon"></i>
+                <h4 class="service_heading">Lorem Ipsum</h4>
+                <p class="service_para" style="color: gray; "> Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+            <div class="col-lg-3  mr-3 col-md-5 mt-3   service_column">
+                <i class="far fa-gem gem service_icon"></i>
+                <h4 class="service_heading">Lorem Ipsum</h4>
+                <p class="service_para" style="color: gray; "> Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid border">
+        <div class="row bgp">
+            <div class="col-lg-12 about d-flex flex-column align-items-center">
+                <h1 class=" about_heading  font-weight-bold text-center w-100" style="color: white;">Call To Action
+                </h1>
+                <hr class="divider_one mt-3">
+                <p class="about_para mt-4" style="text-align: center; color: white;">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button class="btn my-4"  >Call To Action</button>    
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-lg-12 about">
+                <h1 class=" about_heading font-weight-bold text-center w-100">TEAM
+                </h1>
+                <hr class="divider_one mt-4">
+                <p class="about_para my-4" style="text-align: center;">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+            </div>
+        </div>
+        <div class="row mb-5 tea ">
+            <div class="col-lg-3 col-md-6 my-3  po">
+                <img src="./Images/team-1.jpg" alt="" style="height: 100%; width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 my-3 po">
+                <img src="./Images/team-2.jpg" alt=""  style="height: 100%; width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 my-3 po">
+                <img src="./Images/team-3.jpg" alt=""  style="height: 100%; width: 100%;">
+            </div>
+            <div class="col-lg-3 col-md-6 my-3 po">
+                <img src="./Images/team-4.jpg" alt=""  style="height: 100%; width: 100%;">
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid it">
+        <div class="row ">
+            <div class="col-lg-12 about">
+                <h1 class=" about_heading font-weight-bold text-center w-100">TESTIMONIALS
+                </h1>
+                <hr class="divider_one mt-4">
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme" >
+            <div class="item" >
+                <!-- <div class="it"> -->
+                    <div class="row" >
+                        <div class="col-lg-12  d-flex justify-content-center mt-4">
+                    <img src="./Images/testimonial-1.jpg" class="img1" alt="">
+                        </div>
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <h3 class="font-weight-bold">Saul Goodman</h3>
+                        </div>
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <p>Ceo & Founder</p>
+                        </div>
+                        <div class="col-lg-12 d-flex justify-content-center mb-5">
+                            <p class="w-75" style="text-align: center;">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cupiditate, illum consectetur, nemo at suscipit minima aperiam iure adipisci libero ipsa nisi mollitia sequi necessitatibus, est inventore distinctio? Vitae, ullam?
+                            </p>
+                        </div>
+                    </div>    
+
+                <!-- </div> -->
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-12  d-flex justify-content-center mt-4">
+                <img src="./Images/testimonial-2.jpg" class="img1" alt="">
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <h3 class="font-weight-bold">Sara Willsom</h3>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <p>Ceo & Founder</p>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center mb-5">
+                        <p class="w-75" style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cupiditate, illum consectetur, nemo at suscipit minima aperiam iure adipisci libero ipsa nisi mollitia sequi necessitatibus, est inventore distinctio? Vitae, ullam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-12  d-flex justify-content-center mt-4">
+                <img src="./Images/testimonial-3.jpg" class="img1" alt="">
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <h3 class="font-weight-bold">Jena Karalis</h3>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <p>Ceo & Founder</p>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center mb-5">
+                        <p class="w-75" style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cupiditate, illum consectetur, nemo at suscipit minima aperiam iure adipisci libero ipsa nisi mollitia sequi necessitatibus, est inventore distinctio? Vitae, ullam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-12  d-flex justify-content-center mt-4">
+                <img src="./Images/testimonial-4.jpg" class="img1" alt="">
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <h3 class="font-weight-bold">Matt Bandon</h3>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <p>Ceo & Founder</p>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center mb-5">
+                        <p class="w-75" style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cupiditate, illum consectetur, nemo at suscipit minima aperiam iure adipisci libero ipsa nisi mollitia sequi necessitatibus, est inventore distinctio? Vitae, ullam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col-lg-12  d-flex justify-content-center mt-4">
+                <img src="./Images/testimonial-5.jpg" class="img1" alt="">
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <h3 class="font-weight-bold">John Larson</h3>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <p>Ceo & Founder</p>
+                    </div>
+                    <div class="col-lg-12 d-flex justify-content-center mb-5">
+                        <p class="w-75" style="text-align: center;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In cupiditate, illum consectetur, nemo at suscipit minima aperiam iure adipisci libero ipsa nisi mollitia sequi necessitatibus, est inventore distinctio? Vitae, ullam?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <section id="sliderone">
+        <div class="container-fluid">
+            <!-- <div class="row mb-4 "> -->
+                <!-- <div class="col-lg-12 about"> -->
+                    <h1 class=" about_heading font-weight-bold text-center w-100">OUR CLIENTS
+                    </h1>
+                    <hr class="divider_one mt-4">
+                <!-- </div> -->
+            <!-- </div> -->
+            <div class="owl-carousel owl-theme mt-3">
+                <div class="item">
+                    <div class="row">
+                        <div class="col">
+                            <img src="./Images/client-1.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item ">
+                     <div class="row ">
+                         <div class="col">
+                            <img src="./Images/client-2.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                        <div class="col">
+                            <img src="./Images/client-3.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                         <div class="col">
+                        <img src="./Images/client-4.png" alt="">
+                     </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-5.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-6.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-7.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-8.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row ">
+                        <div class="col">
+                            <img src="./Images/client-1.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item ">
+                     <div class="row ">
+                         <div class="col">
+                            <img src="./Images/client-2.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                        <div class="col">
+                            <img src="./Images/client-3.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                         <div class="col">
+                        <img src="./Images/client-4.png" alt="">
+                     </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-5.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-6.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-7.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                <div class="item">
+                     <div class="row">
+                       <div class="col">
+                            <img src="./Images/client-8.png" alt="">
+                         </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+    <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6 footer-info">
+                <h3>BizPage</h3>
+                <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i class="ion-ios-arrow-right"></i> <a href="#" >Home</a></li>
+                  <li><i class="ion-ios-arrow-right"></i> <a href="#">About us</a></li>
+                  <li><i class="ion-ios-arrow-right"></i> <a href="#">Services</a></li>
+                  <li><i class="ion-ios-arrow-right"></i> <a href="#">Terms of service</a></li>
+                  <li><i class="ion-ios-arrow-right"></i> <a href="#">Privacy policy</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-contact">
+                <h4>Contact Us</h4>
+                <p>
+                  A108 Adam Street <br>
+                  New York, NY 535022<br>
+                  United States <br>
+                  <strong>Phone:</strong> +1 5589 55488 55<br>
+                  <strong>Email:</strong> info@example.com<br>
+                </p>
+    
+                <div class="social-links">
+                  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                  <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+    
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem marada parida nodela caramase seza.</p>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            Designed by <a href="#">Me</a>
+          </div>
+        </div>
+      </footer>
+  
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./counterup.min.js"></script>
+<script src="./jquery.waypoints.min.js"></script>
+  
+
+    <script>
+
+        jQuery(document).ready(function($) {
+            $('.countUp').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+          window.onscroll = () =>{
+        if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
+          $('a').css({
+            'color' : 'black'
+          })
+
+          $('.navB').css({
+              'background-color' : 'black'
+          })
+        }
+        else{
+            $('a').css({
+            'color' : 'white'
+          })
+
+          $('.navB').css({
+              'background-color' : 'transparent'
+          })
+        }
+    }
+
+    $('#sliderone .owl-carousel').owlCarousel({
+    loop:true,
+    margin:40,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+})
+
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+    </script>
+
+
+
+</html>
