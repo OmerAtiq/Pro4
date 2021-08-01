@@ -353,14 +353,18 @@
     font-size: 13px;
     color: #ddd;
   }
-
+@media only screen and (max-width: 1300px){
+    .ul{
+        margin-left: 20% !important;
+    }
+}
 @media only screen and (max-width: 992px){
 .dropdown_one{
     margin-top: 0 !important;
     margin-left: 0 !important;
 }
 .ul{
-    margin-left: 6%;
+    margin-left: 6% !important;
 }
 
 
@@ -371,10 +375,5 @@
 @media only screen and (max-width: 500px){
     .only_icon{
         visibility: visible;
-    }
-}
-@media only screen and (max-width: 1300px){
-    .ul{
-        margin-left: 20% !important;
     }
 }
